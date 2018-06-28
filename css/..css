@@ -1,0 +1,79 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    background-color:#BBBBBB ;
+}
+/* tova za zaglavieto */
+div.backgroundzaglavie
+{   
+    height: auto; 
+    background-color:#999999;
+
+}
+div.zaglavie
+{
+    color: #FF9933;
+    padding: 10px;
+    text-align:center;
+    text-transform: uppercase;
+
+}
+/* tova e za menu    */
+div.MENU
+{
+    height: auto; 
+    background:#555550 ;
+	text-align:center;
+    padding:1px 0%  1px; 
+}
+/* tova e za link */
+a{
+    color:#FF9933;
+    padding: 0px;
+    text-transform: uppercase;
+    font-family:"OCR A Std Regular", sans-serif;
+    font-weight:normal;
+	font-style:normal;
+    font-size: 25px ;
+    text-decoration-line: none;
+	width:100px
+}
+li 
+{
+    padding-left:  20px;
+    display: inline-block;
+    text-align:center;
+    text-decoration-line: none;
+}
+ul
+{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+	/*float: center*/
+}
+
+div.text {
+
+    text-justify: inter-word;
+    text-align:center;
+	font-size: 25px ;
+
+
+}	
+
+footer.footer {
+     position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#555550;
+	color:#FF9933;
+   text-align: center;
+}
+
+p.copyright {
+    color: #fff;
+    line-height: 10px;
+    font-size: 0.7em;
+}

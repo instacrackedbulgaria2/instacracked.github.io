@@ -1,0 +1,136 @@
+body { 
+   background-repeat: no-repeat;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+   background-color:#111111 ;
+     background-size:100% 100% ;
+    background-attachment: fixed;
+}
+/* tova za zaglavieto */
+div.backgroundzaglavie{   
+    height: auto; 
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+div.zaglavie{
+     background-color: rgba(10, 10, 10, 0.5);
+    padding: 10px;
+    text-align:center;
+    text-transform: uppercase;
+}
+/* tova e za menu    */
+div.MENU{
+	text-align:center; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(10, 10, 10, 0.5);
+}
+li {
+    padding-left:  20px;
+    display: inline-block;
+    text-align:center;
+    text-decoration-line: none;
+} 
+
+a {   text-decoration: none;color: white;}
+li a, list, .dropbtn {
+    /*text*/
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    
+
+
+}
+a:hover {
+    background-color: #666660;
+}
+.dropdown:hover {
+    background-color: #666660;
+}
+li.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn { /*drop text*/
+    display: inline-block;
+        font-size: 16px;    
+    border: none;
+    outline: none;
+    color:black;
+    padding-top: 14px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    text-align:center;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444440;
+    margin-top: 0px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1.0);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+div.box{
+    display: block;
+      width: auto;
+    margin: 1%  1.5%  1%  1.5% ;
+    padding: auto  ;
+    border: 5px solid gray;
+    background-color: rgba(10, 10, 10, 0.8);
+    min-height: calc(100vh - 70px);
+  padding: 40px 40px 0 40px;
+}
+div.lista {
+    color: gray;
+    display: block;
+    text-align:left;
+    font-size: 18px;
+    font-weight: bold;
+   
+} 
+
+
+/* tova e za text*/
+div.text {
+ color: grey;
+    text-justify: inter-word;
+    text-align:left;
+	font-size: 15px ;
+ display: block;
+}
+
+
+.footer {
+   position: absolute; 
+ height: 35px;
+ width: 100%;
+ background-color: rgba(10, 10, 10, 0.5);
+text-align: center;
+}
+p.copyright {
+   /*color: #fff;/**/
+    line-height: 5px;
+    font-size: 15px;
+}
